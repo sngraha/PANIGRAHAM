@@ -27,7 +27,7 @@ $ make
 
 To run
 ```
-./main-&lt;OP>-PGCn/PGICn &lt;number of threads> &lt;Threshod value> &lt;input Graph> &lt;operation distribution file>
+./main-<OP>-PGCn/PGICn <number of threads> <Threshod value> <input Graph> <operation distribution file>
 ```
 Run Examples
 
@@ -65,7 +65,7 @@ To run
 ```
 export CILK_NWORKERS=<number of threads>
 
-./&lt;OP>Ligra -n &lt;number of operations> -f &lt;operation distribution file> -s &lt;input Graph>
+./<OP>Ligra -n <number of operations> -f <operation distribution file> -s <input Graph>
 ```
 Run Examples
 
@@ -84,7 +84,7 @@ To run, place the operation distribution file in side bin/ directory then
 ```
 $ export OMP_NUM_THREADS=<number of threads>
 
-./stinger_breadth_first_search &lt;input Graph> &lt;Op file> 
+./stinger_breadth_first_search <input Graph> <Op file> 
 ```
 Run Examples 
 
@@ -145,4 +145,13 @@ Input Format for Stinger application is same as Ligra in binary format.
 ...  
 &lt;e(m-1)>  
 
+
+
+
+Resources  
+-------- 
+Bapi Chatterjee, Sathya Peri and Muktikanta Sa. [Non-blocking Dynamic Unbounded Graphs with Worst-case Amortized Bounds](https://arxiv.org/abs/2003.01697). 
+
+
+If you have any questions, please contact: sngrahagraph@gmail.com, cs15resch11012@iith.ac.in
 
