@@ -148,10 +148,4 @@ Input Format for Stinger application is same as Ligra in binary format.
 
 
 
-#Resources  
-#-------- 
-#Bapi Chatterjee, Sathya Peri and Muktikanta Sa. [Non-blocking Dynamic Unbounded Graphs with Worst-case Amortized Bounds](https://arxiv.org/abs/2003.01697). 
-
-
-#If you have any questions, please contact: sngrahagraph@gmail.com, cs15resch11012@iith.ac.in
 
